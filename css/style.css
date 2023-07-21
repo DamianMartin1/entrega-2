@@ -395,7 +395,7 @@ header{
     background-color: #ffffff98;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.6875rem;
+    font-size: 2.0625rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -414,13 +414,13 @@ header{
 .div-1{
     width: 60px;
     height: 60px;
-    background-color: #2C727E;
+    background-color: #860000;
     border-radius: 50%;
 }
 .div-2{
     width: 60px;
     height: 60px;
-    background-color: #860000;
+    background-color: #2C727E;
     border-radius: 50%;
 }
 
@@ -430,10 +430,16 @@ header{
     background-color: #8598A7;
     border-radius: 50%;
 }
-
-.moto-roja{
-    width: 400px;
-    height: 300px;
+.div-motos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5625rem;
+    padding: 1rem 0px;
+}
+.moto{
+    width: 19.375rem;
+    height: 15rem;
     border-radius: .625rem;
     background-color: rgb(177, 176, 176);
 }
@@ -466,7 +472,7 @@ header{
 .div-img{
     width: 100%;
     height: 28.125rem;
-    background-image: url("git../assets/img/Triumph-TE-1-diseno-terminado-ambiente.jpg");
+    background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-ambiente.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
