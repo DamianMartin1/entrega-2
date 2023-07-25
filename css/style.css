@@ -33,7 +33,12 @@ header{
     align-items: center;
     padding: 1rem 0px;
 }
-
+.header-nav div{
+    transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
+}
+.header-nav div:hover{
+    transform: scale(1.1);
+}
 .header-nav div a{
     text-decoration: none;
     font-size: 1.5625rem;
@@ -51,7 +56,12 @@ header{
     gap: 1.25rem;
     list-style: none;
 }
-
+.navbar li{
+    transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
+}
+.navbar li:hover{
+    transform: scale(1.1);
+}
 .navbar li a{
     text-decoration: none;
     color: black;
@@ -69,7 +79,6 @@ header{
     background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-accion.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 35%;
 }
 .section-principal{
     width: 100%;
@@ -77,7 +86,7 @@ header{
 }
 .bloque-div{
     width: 70%;
-    height: 34.375rem;
+    height: 36.875rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,10 +114,9 @@ header{
 .padre-card{
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    padding-top: 6.25rem;
+    padding-top: 1.5625rem;
 }
 .start-stop{
     display: flex;
@@ -119,6 +127,10 @@ header{
     text-align: center;
     border: black solid .125rem;
     border-radius: .3125rem;
+}
+.start-stop h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .start-stop p{
     font-family: 'Roboto', sans-serif;
@@ -201,36 +213,37 @@ header{
     ;
     justify-content: center;
     gap: .625rem;
+    padding-bottom: 1.875rem;
 }
 .color1 {
     grid-area: col1;
     background-image: url("../assets/img/triumph_te-1_2.jpg");
-    background-size: contain;
+    
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     position: relative;
     top: 1.25rem;
     left: 1.125rem;
 }
 .color2 {
-    width: 80%;
-    height: 85%;
     grid-area: col2;
-    align-self: center;
+    padding-top: 1.25rem;
     justify-self: center;
 }
 .color2 p{
+    width: auto;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 1.6875rem;
+    font-size: 1.5625rem;
     color: white;
 }
 .color3 {
     grid-area: col3;
     background-image: url("../assets/img/triumph_te-1_1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .color4 {
     grid-area: col4;
@@ -243,7 +256,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.color4 p{
+.color4 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: white;
@@ -416,19 +429,30 @@ header{
     height: 60px;
     background-color: #860000;
     border-radius: 50%;
+    transition: transform 0.7s;
+}
+.div-1:hover{
+    transform: scale(1.4);
 }
 .div-2{
     width: 60px;
     height: 60px;
     background-color: #2C727E;
     border-radius: 50%;
+    transition: transform 0.7s;
 }
-
+.div-2:hover{
+    transform: scale(1.4);
+}
 .div-3{
     width: 60px;
     height: 60px;
     background-color: #8598A7;
     border-radius: 50%;
+    transition: transform 0.7s;
+}
+.div-3:hover{
+    transform: scale(1.4);
 }
 .div-motos{
     display: flex;
@@ -517,6 +541,12 @@ header{
     }
     .div-comodidad img{
         right: 10px;
+    }
+    .color4{
+        margin-top: 6.25rem;
+    }
+    .color2 p{
+        font-size: 1.4625rem;
     }
 }
 @media (max-width:768px){
