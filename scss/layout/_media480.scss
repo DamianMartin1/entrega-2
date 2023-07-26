@@ -1,0 +1,36 @@
+@media (max-width:480px){
+    .main-index{
+        background-position: 70% center;
+        section{
+            .bloque-div{
+                div{
+                    width: 85%;
+                    height: 45%;
+                    margin-left: 4.375rem;
+                }
+            }
+        }
+    }
+    footer{
+        .marca{
+            justify-content: center;
+            width: 5.000rem;
+        }
+        .contactos{
+            gap: .625rem;
+            .incons{
+                margin-right: 1.125rem;
+            }
+        }
+    }
+    .main-acerca{
+        section{
+            .acerca-p{
+                p{
+                    width: 75%;
+                    height: 65%;
+                }
+            }
+        }
+    }
+}

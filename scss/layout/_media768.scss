@@ -1,0 +1,64 @@
+@media (max-width:768px){
+    .main-index {
+        section {
+            .bloque-div {
+                div {
+                    p {
+                        font-size: 1.5625rem;
+                    }
+                }
+            }
+        }
+    }
+    .grid-cards{
+        gap: 4.375rem;
+        .card1{
+            width: 14.375rem;
+            div{
+                img{
+                    right: 1.1875rem;
+                }
+                h1{
+                    padding-left: 1rem;
+                }
+            }
+        }
+        .card2{
+            width: 14.375rem;
+            div{
+                img{
+                    right: 1.125rem;
+                }
+            }
+        }
+        .card3{
+            width: 14.375rem;
+            div{
+                img{
+                    right: 1rem;
+                }
+                h2{
+                    font-size: 1.5625rem;
+                }
+            }
+        }
+        .card4{
+            width: 14.375rem;
+            div{
+                h2{
+                    font-size: 1.5625rem;
+                }
+            }
+        }
+    }
+    .main-acerca{
+        section{
+            .acerca-p{
+                p{
+                    width: 57%;
+                    height: 65%;
+                }
+            }
+        }
+    }
+}

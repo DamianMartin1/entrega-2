@@ -1,0 +1,47 @@
+@media (max-width:1024px) {
+    .main-index {
+        background-position: center;
+        section {
+            .bloque-div {
+                div {
+                    p {
+                        font-size: 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+    .producto-main {
+        section {
+            .color2 {
+                p {
+                    font-size: 1.4625rem;
+                }
+            }
+        }
+    }
+    .grid-cards {
+        .card1 {
+            width: 98%;
+        }
+        .card2 {
+            width: 98%;
+        }
+        .card3 {
+            width: 98%;
+        }
+        .card4 {
+            width: 98%;
+        }
+    }
+    .main-acerca{
+        section{
+            .acerca-p{
+                p{
+                    width: 47%;
+                    height: 55%;
+                }
+            }
+        }
+    }
+}

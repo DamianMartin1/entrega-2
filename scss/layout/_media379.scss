@@ -1,0 +1,22 @@
+@media (max-width:379px){
+    .main-index{
+        section{
+            .bloque-div{
+                div{
+                    height: 55%;
+                }
+            }
+        }
+    }
+    .main-acerca{
+        section{
+            .acerca-p{
+                p{
+                    width: 85%;
+                    height: 70%;
+                    font-size: 1.875rem;
+                }
+            }
+        }
+    }
+}

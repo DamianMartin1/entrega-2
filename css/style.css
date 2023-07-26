@@ -455,6 +455,119 @@ footer .contactos div {
   .main-index {
     background-position: center;
   }
+  .main-index section .bloque-div div p {
+    font-size: 1.875rem;
+  }
+  .producto-main section .color2 p {
+    font-size: 1.4625rem;
+  }
+  .grid-cards .card1 {
+    width: 98%;
+  }
+  .grid-cards .card2 {
+    width: 98%;
+  }
+  .grid-cards .card3 {
+    width: 98%;
+  }
+  .grid-cards .card4 {
+    width: 98%;
+  }
+  .main-acerca section .acerca-p p {
+    width: 47%;
+    height: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .main-index section .bloque-div div p {
+    font-size: 1.5625rem;
+  }
+  .grid-cards {
+    gap: 4.375rem;
+  }
+  .grid-cards .card1 {
+    width: 14.375rem;
+  }
+  .grid-cards .card1 div img {
+    right: 1.1875rem;
+  }
+  .grid-cards .card1 div h1 {
+    padding-left: 1rem;
+  }
+  .grid-cards .card2 {
+    width: 14.375rem;
+  }
+  .grid-cards .card2 div img {
+    right: 1.125rem;
+  }
+  .grid-cards .card3 {
+    width: 14.375rem;
+  }
+  .grid-cards .card3 div img {
+    right: 1rem;
+  }
+  .grid-cards .card3 div h2 {
+    font-size: 1.5625rem;
+  }
+  .grid-cards .card4 {
+    width: 14.375rem;
+  }
+  .grid-cards .card4 div h2 {
+    font-size: 1.5625rem;
+  }
+  .main-acerca section .acerca-p p {
+    width: 57%;
+    height: 65%;
+  }
+}
+@media (max-width: 610px) {
+  .main-index section .bloque-div div {
+    width: 80%;
+    height: 40%;
+    margin-left: 2.1875rem;
+  }
+  .grid-cards {
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 12.5rem);
+    grid-template-areas: "car1" "car2" "car3" "car4";
+    align-items: center;
+    padding: 3.75rem 0px;
+  }
+}
+@media (max-width: 480px) {
+  .main-index {
+    background-position: 70% center;
+  }
+  .main-index section .bloque-div div {
+    width: 85%;
+    height: 45%;
+    margin-left: 4.375rem;
+  }
+  footer .marca {
+    justify-content: center;
+    width: 5rem;
+  }
+  footer .contactos {
+    gap: 0.625rem;
+  }
+  footer .contactos .incons {
+    margin-right: 1.125rem;
+  }
+  .main-acerca section .acerca-p p {
+    width: 75%;
+    height: 65%;
+  }
+}
+@media (max-width: 379px) {
+  .main-index section .bloque-div div {
+    height: 55%;
+  }
+  .main-acerca section .acerca-p p {
+    width: 85%;
+    height: 70%;
+    font-size: 1.875rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
