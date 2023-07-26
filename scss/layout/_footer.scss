@@ -1,0 +1,66 @@
+footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ". marca contactos"
+    ;
+    background-color: #1D3F40;
+    .marca{
+        grid-area: marca;
+        justify-self: center;
+        display: flex;
+        align-items: center;
+        p{
+            text-align: center;
+            background-color: white;
+            padding: .375rem .625rem;
+            border-radius: .25rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+    }
+    .contactos{
+        grid-area: contactos;
+        display: flex;
+        justify-content: center;
+        gap: 1.5625rem;
+        div{
+            ul{
+                list-style: none;
+                margin-top: .3125rem;
+                li{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.125rem;
+                    }
+                }
+            }
+        }
+        div{
+            ul{
+                list-style: none;
+                margin-top: .3125rem;
+                li{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 400;
+                        font-size: 1.125rem;
+                    }
+                }
+            }
+        }
+        div{
+            display: flex;
+            align-items: center;
+            gap: .625rem;
+        }
+    }
+}

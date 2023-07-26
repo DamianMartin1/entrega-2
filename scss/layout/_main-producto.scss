@@ -1,0 +1,64 @@
+.producto-main{
+    background-color: #1A1919;
+    section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: repeat(2,23.75rem);
+        grid-template-areas: 
+        "col1 col4"
+        "col2 col3"
+        ;
+        justify-content: center;
+        gap: .625rem;
+        padding-bottom: 1.875rem;
+        .color1{
+            grid-area: col1;
+            background-image: url("../assets/img/triumph_te-1_2.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            top: 1.25rem;
+            left: 1.125rem;
+        }
+        .color2{
+            grid-area: col2;
+            padding-top: 1.25rem;
+            justify-self: center;
+            p{
+                width: auto;
+                text-align: center;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                font-size: 1.5625rem;
+                color: white;
+            }
+        }
+        .color3{
+            grid-area: col3;
+            background-image: url("../assets/img/triumph_te-1_1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .color4{
+            grid-area: col4;
+            width: 4.8116rem;
+            height: 9.375rem;
+            background-color: #df904bae;
+            align-self: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                color: white;
+                font-size: 18px;
+                position: relative;
+                left: 20px;
+            }
+        }
+    }
+}

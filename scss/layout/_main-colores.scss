@@ -1,0 +1,75 @@
+.main-colores {
+    background-color: rgb(216, 216, 216);
+    .colores-p {
+        height: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            width: 40%;
+            height: 50%;
+            background-color: #ffffff98;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 2.0625rem;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            border-radius: 6px;
+            box-shadow: 5px 5px rgba(128, 128, 128, 0.763);
+        }
+    }
+    section {
+        .colores-2 {
+            display: flex;
+            width: 100%;
+            justify-content: end;
+            align-items: end;
+            padding: 0px 2.1875rem;
+            gap: 1.25rem;
+            .div-1 {
+                width: 60px;
+                height: 60px;
+                background-color: #860000;
+                border-radius: 50%;
+                transition: transform 0.7s;
+                &:hover{
+                    transform: scale(1.4);
+                }
+            }
+            .div-2 {
+                width: 60px;
+                height: 60px;
+                background-color: #2C727E;
+                border-radius: 50%;
+                transition: transform 0.7s;
+                &:hover{
+                    transform: scale(1.4);
+                }
+            }
+            .div-3 {
+                width: 60px;
+                height: 60px;
+                background-color: #8598A7;
+                border-radius: 50%;
+                transition: transform 0.7s;
+                &:hover{
+                    transform: scale(1.4);
+                }
+            }
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1.5625rem;
+            padding: 1rem 0px;
+            .moto {
+                width: 19.375rem;
+                height: 15rem;
+                border-radius: .625rem;
+                background-color: rgb(177, 176, 176);
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+header{
+    background: rgb(84, 109, 138);
+    background: linear-gradient(58deg, rgba(84, 109, 138, 1) 67%, rgba(249, 249, 249, 1) 67%);
+    .navbar-brand{
+        transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.nav-item{
+    transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
+    &:hover{
+        transform: scale(1.1);
+    }
+}

@@ -1,657 +1,460 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*
-colores
-
-#22282F gris
-#0E2954 azul oscuro
-#40128B violeta oscuro
-#D25380 rosa
-
-fuentes
-
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
-
-header{
-    width: 100%;
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
 }
 
-.header-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: linear-gradient(45deg, rgb(40, 48, 57) 60%, rgba(255,255,255,1) 27%);
-    font-family: 'Lato', sans-serif;
-    align-items: center;
-    padding: 1rem 0px;
-}
-.header-nav div{
-    transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
-}
-.header-nav div:hover{
-    transform: scale(1.1);
-}
-.header-nav div a{
-    text-decoration: none;
-    font-size: 1.5625rem;
-    color: black;
-    padding-left: 1rem;
-    background-color: #D9D9D9;
-    margin-left: 1rem;
-    padding-right: 1rem;
-    border-radius: .375rem;
-    box-shadow: 2px 2px 0px rgba(128, 128, 128, 0.686);
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
-.navbar{
-    display: flex;
-    gap: 1.25rem;
-    list-style: none;
-}
-.navbar li{
-    transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
-}
-.navbar li:hover{
-    transform: scale(1.1);
-}
-.navbar li a{
-    text-decoration: none;
-    color: black;
-    padding-right: .625rem;
-    padding-left: .625rem;
-    font-size: 1.4375rem;
-    background-color: #D9D9D9;
-    margin-right: 1rem;
-    border-radius: .375rem;
-    box-shadow: 2px 2px 0px rgba(128, 128, 128, 0.686);
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
-/*inicio de main*/
-.main-index{
-    background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-accion.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+  background: rgb(84, 109, 138);
+  background: linear-gradient(58deg, rgb(84, 109, 138) 67%, rgb(249, 249, 249) 67%);
 }
-.section-principal{
-    width: 100%;
-    height: 45rem;
+header .navbar-brand {
+  transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
 }
-.bloque-div{
-    width: 70%;
-    height: 36.875rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.0625rem;
+header .navbar-brand:hover {
+  transform: scale(1.1);
 }
 
-.div-p{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 38%;
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.37);
-    border-radius: .3125rem;
-    margin-right: 5.3125rem;
+.nav-item {
+  transition: transform 0.4s cubic-bezier(0.37, 0, 0.63, 1);
 }
-.div-p p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 2.1875rem;
-    color: rgb(210, 210, 210);
-}
-.padre-card{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 1.5625rem;
-}
-.start-stop{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    padding: 0px .125rem;
-    text-align: center;
-    border: black solid .125rem;
-    border-radius: .3125rem;
-}
-.start-stop h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-.start-stop p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+.nav-item:hover {
+  transform: scale(1.1);
 }
 
-/*inicio de footer*/
+.main-index {
+  background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-accion.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-index section {
+  width: 100%;
+  height: 45rem;
+}
+.main-index section .bloque-div {
+  width: 70%;
+  height: 36.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.0625rem;
+}
+.main-index section .bloque-div div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 38%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 0.3125rem;
+  margin-right: 5.3125rem;
+}
+.main-index section .bloque-div div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.1875rem;
+  color: rgb(210, 210, 210);
+}
+.main-index section .padre-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1.5625rem;
+}
+.main-index section .padre-card .start-stop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 0px 0.125rem;
+  text-align: center;
+  border: black solid 0.125rem;
+  border-radius: 0.3125rem;
+}
+.main-index section .padre-card .start-stop h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.main-index section .padre-card .start-stop p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
 
-.grid-footer{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    ". marca contactos"
-    ;
-    background-color: #1D3F40;
+footer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: ". marca contactos";
+  background-color: #1D3F40;
 }
-.marca{
-    grid-area: marca;
-    justify-self: center;
-    display: flex;
-    align-items: center;
+footer .marca {
+  grid-area: marca;
+  justify-self: center;
+  display: flex;
+  align-items: center;
 }
-.marca p{
-    text-align: center;
-    background-color: white;
-    padding: .375rem .625rem;
-    border-radius: .25rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.25rem;
+footer .marca p {
+  text-align: center;
+  background-color: white;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
-.contactos{
-    grid-area: contactos;
-    display: flex;
-    justify-content: center;
-    gap: 1.5625rem;
+footer .contactos {
+  grid-area: contactos;
+  display: flex;
+  justify-content: center;
+  gap: 1.5625rem;
 }
-.contac-mas ul{
-    list-style: none;
-    margin-top: .3125rem;
+footer .contactos div ul {
+  list-style: none;
+  margin-top: 0.3125rem;
 }
-.contac-mas ul li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
+footer .contactos div ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
 }
-.faq-legals ul{
-    list-style: none;
-    margin-top: .3125rem;
+footer .contactos div ul {
+  list-style: none;
+  margin-top: 0.3125rem;
 }
-.faq-legals ul li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
+footer .contactos div ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
 }
-.incons{
-    display: flex;
-    align-items: center;
-    gap: .625rem;
+footer .contactos div {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
 }
 
-/*inicio de producto*/
-.producto-main{
-    background-color: #1A1919;
+.producto-main {
+  background-color: #1A1919;
 }
-.grid-proc{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: repeat(2,23.75rem);
-    grid-template-areas: 
-    "col1 col4"
-    "col2 col3"
-    ;
-    justify-content: center;
-    gap: .625rem;
-    padding-bottom: 1.875rem;
+.producto-main section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: repeat(2, 23.75rem);
+  grid-template-areas: "col1 col4" "col2 col3";
+  justify-content: center;
+  gap: 0.625rem;
+  padding-bottom: 1.875rem;
 }
-.color1 {
-    grid-area: col1;
-    background-image: url("../assets/img/triumph_te-1_2.jpg");
-    
-    background-repeat: no-repeat;
+.producto-main section .color1 {
+  grid-area: col1;
+  background-image: url("../assets/img/triumph_te-1_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  top: 1.25rem;
+  left: 1.125rem;
+}
+.producto-main section .color2 {
+  grid-area: col2;
+  padding-top: 1.25rem;
+  justify-self: center;
+}
+.producto-main section .color2 p {
+  width: auto;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5625rem;
+  color: white;
+}
+.producto-main section .color3 {
+  grid-area: col3;
+  background-image: url("../assets/img/triumph_te-1_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.producto-main section .color4 {
+  grid-area: col4;
+  width: 4.8116rem;
+  height: 9.375rem;
+  background-color: rgba(223, 144, 75, 0.6823529412);
+  align-self: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.producto-main section .color4 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 20px;
+}
+
+.grid-cards {
+  width: 100%;
+  height: 45rem;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: repeat(2, 250px);
+  grid-template-areas: "car1 car2" "car3 car4";
+  justify-content: center;
+  align-content: center;
+  gap: 2.1875rem;
+}
+.grid-cards .card1 {
+  grid-area: car1;
+  background-color: #d0d0d0;
+  width: 80%;
+  justify-self: center;
+  box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
+  border-radius: 0.5rem;
+}
+.grid-cards .card1 div {
+  display: flex;
+  justify-content: center;
+}
+.grid-cards .card1 div img {
+  position: relative;
+  bottom: 1.875rem;
+  right: 3.125rem;
+}
+.grid-cards .card1 div h1 {
+  font-size: 2.1875rem;
+  font-family: "Roboto", sans-serif;
+  padding-left: 1.5625rem;
+}
+.grid-cards .card1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1875rem;
+  text-align: center;
+}
+.grid-cards .card2 {
+  grid-area: car2;
+  background-color: #d0d0d0;
+  width: 80%;
+  justify-self: center;
+  box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
+  border-radius: 0.5rem;
+}
+.grid-cards .card2 div {
+  display: flex;
+  justify-content: center;
+}
+.grid-cards .card2 div img {
+  position: relative;
+  right: 3.125rem;
+  bottom: 1.5625rem;
+}
+.grid-cards .card2 div h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.875rem;
+}
+.grid-cards .card2 p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.4375rem;
+}
+.grid-cards .card3 {
+  grid-area: car3;
+  background-color: #d0d0d0;
+  width: 80%;
+  justify-self: center;
+  box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
+  border-radius: 0.5rem;
+}
+.grid-cards .card3 div {
+  display: flex;
+  justify-content: center;
+}
+.grid-cards .card3 div img {
+  position: relative;
+  right: 2.8125rem;
+  bottom: 1.5625rem;
+}
+.grid-cards .card3 div h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.875rem;
+}
+.grid-cards .card3 p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.0625rem;
+}
+.grid-cards .card4 {
+  grid-area: car4;
+  background-color: #d0d0d0;
+  width: 80%;
+  justify-self: center;
+  box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
+  border-radius: 0.5rem;
+}
+.grid-cards .card4 div {
+  display: flex;
+  justify-content: center;
+}
+.grid-cards .card4 div img {
+  position: relative;
+  right: 2.1875rem;
+  bottom: 1.875rem;
+}
+.grid-cards .card4 div h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.875rem;
+  padding-right: 1rem;
+}
+.grid-cards .card4 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.4375rem;
+}
+
+.main-colores {
+  background-color: rgb(216, 216, 216);
+}
+.main-colores .colores-p {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-colores .colores-p p {
+  width: 40%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.5960784314);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.0625rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 5px 5px rgba(128, 128, 128, 0.763);
+}
+.main-colores section .colores-2 {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: end;
+  padding: 0px 2.1875rem;
+  gap: 1.25rem;
+}
+.main-colores section .colores-2 .div-1 {
+  width: 60px;
+  height: 60px;
+  background-color: #860000;
+  border-radius: 50%;
+  transition: transform 0.7s;
+}
+.main-colores section .colores-2 .div-1:hover {
+  transform: scale(1.4);
+}
+.main-colores section .colores-2 .div-2 {
+  width: 60px;
+  height: 60px;
+  background-color: #2C727E;
+  border-radius: 50%;
+  transition: transform 0.7s;
+}
+.main-colores section .colores-2 .div-2:hover {
+  transform: scale(1.4);
+}
+.main-colores section .colores-2 .div-3 {
+  width: 60px;
+  height: 60px;
+  background-color: #8598A7;
+  border-radius: 50%;
+  transition: transform 0.7s;
+}
+.main-colores section .colores-2 .div-3:hover {
+  transform: scale(1.4);
+}
+.main-colores section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5625rem;
+  padding: 1rem 0px;
+}
+.main-colores section div .moto {
+  width: 19.375rem;
+  height: 15rem;
+  border-radius: 0.625rem;
+  background-color: rgb(177, 176, 176);
+}
+
+.main-acerca {
+  background-color: rgb(216, 216, 216);
+}
+.main-acerca section {
+  width: 100%;
+  height: 100%;
+}
+.main-acerca section .acerca-p {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-acerca section .acerca-p p {
+  width: 40%;
+  height: 50%;
+  background-color: rgba(115, 187, 201, 0.5019607843);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.9375rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.375rem;
+  box-shadow: 0.25rem 0.3125rem rgba(128, 128, 128, 0.668);
+}
+.main-acerca section .div-img {
+  width: 100%;
+  height: 28.125rem;
+  background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-ambiente.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1.25rem;
+  border-radius: 0.375rem;
+}
+
+@media (max-width: 1024px) {
+  .main-index {
     background-position: center;
-    position: relative;
-    top: 1.25rem;
-    left: 1.125rem;
-}
-.color2 {
-    grid-area: col2;
-    padding-top: 1.25rem;
-    justify-self: center;
-}
-.color2 p{
-    width: auto;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 1.5625rem;
-    color: white;
-}
-.color3 {
-    grid-area: col3;
-    background-image: url("../assets/img/triumph_te-1_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.color4 {
-    grid-area: col4;
-    width: 4.8116rem;
-    height: 9.375rem;
-    background-color: #df904bae;
-    align-self: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.color4 h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    left: 20px;
+  }
 }
 
-/*inicio de beneficios*/
-
-.grid-cards{
-    width: 100%;
-    height: 45rem;
-    display: grid;
-    grid-template-columns: 30% 30%;
-    grid-template-rows: repeat(2,250px);
-    grid-template-areas: 
-    "car1 car2"
-    "car3 car4"
-    ;
-    justify-content: center;
-    align-content: center;
-    gap: 2.1875rem;
-}
-.card1 {
-    grid-area: car1;
-    background-color: #d0d0d0;
-    width: 80%;
-    justify-self: center;
-    box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-    border-radius: .5rem;
-}
-.div-kg{
-    display: flex;
-    justify-content: center;
-}
-.div-kg img{
-    position: relative;
-    bottom: 1.875rem;
-    right: 3.125rem;
-}
-.div-kg h1{
-    font-size: 2.1875rem;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 1.5625rem;
-}
-.card1 p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.1875rem;
-    text-align: center;
-}
-.card2 {
-    grid-area: car2;
-    background-color: #d0d0d0;
-    width: 80%;
-    justify-self: center;
-    box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-    border-radius: .5rem;
-}
-.div-recarga{
-    display: flex;
-    justify-content: center;
-}
-.div-recarga img{
-    position: relative;
-    right: 3.125rem;
-    bottom: 1.5625rem;
-}
-.div-recarga h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.875rem;
-}
-.card2 p{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.4375rem;
-}
-.card3 {
-    grid-area: car3;
-    background-color: #d0d0d0;
-    width: 80%;
-    justify-self: center;
-    box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-    border-radius: .5rem;
-}
-.div-velocidad{
-    display: flex;
-    justify-content: center;
-}
-.div-velocidad img{
-    position: relative;
-    right: 2.8125rem;
-    bottom: 1.5625rem;
-}
-.div-velocidad h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.875rem;
-}
-.card3 p{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.0625rem;
-}
-.card4 {
-    grid-area: car4;
-    background-color: #d0d0d0;
-    width: 80%;
-    justify-self: center;
-    box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-    border-radius: .5rem;
-}
-.div-comodidad{
-    display: flex;
-    justify-content: center;
-}
-.div-comodidad img{
-    position: relative;
-    right: 2.1875rem;
-    bottom: 1.875rem;
-}
-.div-comodidad h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.875rem;
-    padding-right: 1rem;
-}
-.card4 p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.4375rem;
-}
-
-/*inicio de colores*/
-.main-colores{
-    background-color: rgb(216, 216, 216);
-}
-.colores-p{
-    height: 25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.colores-p p{
-    width: 40%;
-    height: 50%;
-    background-color: #ffffff98;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 2.0625rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    border-radius: 6px;
-    box-shadow: 5px 5px rgba(128, 128, 128, 0.763);
-}
-
-.colores-2{
-    display: flex;
-    width: 100%;
-    justify-content: end;
-    align-items: end;
-    padding: 0px 2.1875rem;
-    gap: 1.25rem;
-}
-.div-1{
-    width: 60px;
-    height: 60px;
-    background-color: #860000;
-    border-radius: 50%;
-    transition: transform 0.7s;
-}
-.div-1:hover{
-    transform: scale(1.4);
-}
-.div-2{
-    width: 60px;
-    height: 60px;
-    background-color: #2C727E;
-    border-radius: 50%;
-    transition: transform 0.7s;
-}
-.div-2:hover{
-    transform: scale(1.4);
-}
-.div-3{
-    width: 60px;
-    height: 60px;
-    background-color: #8598A7;
-    border-radius: 50%;
-    transition: transform 0.7s;
-}
-.div-3:hover{
-    transform: scale(1.4);
-}
-.div-motos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1.5625rem;
-    padding: 1rem 0px;
-}
-.moto{
-    width: 19.375rem;
-    height: 15rem;
-    border-radius: .625rem;
-    background-color: rgb(177, 176, 176);
-}
-
-/*inicio de acerdade*/
-
-.sec-main{
-    width: 100%;
-    height: 100%;
-}
-.acerca-p{
-    height: 25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.acerca-p p{
-    width: 40%;
-    height: 50%;
-    background-color: #73bbc980;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 1.9375rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border-radius: .375rem;
-    box-shadow: .25rem .3125rem rgba(128, 128, 128, 0.668);
-}
-.div-img{
-    width: 100%;
-    height: 28.125rem;
-    background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-ambiente.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1.25rem;
-    border-radius: .375rem;
-}
-
-
-/**
-1024PX
-768PX
-425PX
-375PX
-320PX
-**/
-
-@media (max-width:1024px){
-    .header-nav{
-        justify-content: space-around;
-    }
-    .div-p p{
-        font-size: 1.875rem;
-    }
-    .main-index{
-        background-position: center;
-    }
-    .acerca-p p{
-        width: 47%;
-        height: 55%;
-    }
-    .card1{
-        width: 98%;
-    }
-    .card2{
-        width: 98%;
-    }
-    .card3{
-        width: 98%;
-    }
-    .card4{
-        width: 98%;
-    }
-    .div-comodidad img{
-        right: 10px;
-    }
-    .color4{
-        margin-top: 6.25rem;
-    }
-    .color2 p{
-        font-size: 1.4625rem;
-    }
-}
-@media (max-width:768px){
-    .header-nav{
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .div-p p{
-        font-size: 1.5625rem;
-    }
-    .acerca-p p{
-        width: 57%;
-        height: 65%;
-    }
-    .grid-cards{
-        gap: 4.375rem;
-    }
-    .card1{
-        width: 14.375rem;
-    }
-    .div-kg img{
-        right: 1.1875rem;
-    }
-    .div-kg h1{
-        padding-left: 1rem;
-    }
-    .card2{
-        width: 14.375rem;
-    }
-    .div-recarga img{
-        right: 1.125rem;
-    }
-    .card3{
-        width: 14.375rem;
-    }
-    .div-velocidad img{
-        right: 1rem;
-    }
-    .div-velocidad h2{
-        font-size: 1.5625rem;
-    }
-    .card4{
-        width: 14.375rem;
-    }
-    .div-comodidad h2{
-        font-size: 1.5625rem;
-    }
-}
-@media (max-width:610px){
-    .header-nav div{
-        padding-right: 4.375rem;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .div-p{
-        width: 80%;
-        height: 40%;
-        margin-left: 2.1875rem;
-    }
-    .grid-cards{
-        height: auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,200px);
-        grid-template-areas: 
-        "car1"
-        "car2"
-        "car3"
-        "car4"
-        ;
-        align-items: center;
-        padding: 3.75rem 0px;
-    }
-}
-@media (max-width:480px){
-    .main-index{
-        background-position: 70% center;
-    }
-    .div-p{
-        width: 85%;
-        height: 45%;
-        margin-left: 4.375rem;
-    }
-    .marca{
-        justify-content: center;
-        width: 5.000rem;
-    }
-    .contactos{
-        gap: .625rem;
-    }
-    .acerca-p p{
-        width: 75%;
-        height: 65%;
-    }
-    .incons{
-        margin-right: 18px;
-    }
-}
-@media (max-width:379px){
-    .div-p{
-        height: 55%;
-    }
-    .acerca-p p{
-        width: 85%;
-        height: 70%;
-        font-size: 1.875rem;
-    }
-}
+/*# sourceMappingURL=style.css.map */

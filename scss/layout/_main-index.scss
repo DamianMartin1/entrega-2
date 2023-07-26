@@ -1,0 +1,61 @@
+.main-index{
+    background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-accion.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    section{
+        width: 100%;
+        height: 45rem;
+        .bloque-div{
+            width: 70%;
+            height: 36.875rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.0625rem;
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                height: 38%;
+                text-align: center;
+                justify-content: center;
+                background-color: rgba(0, 0, 0, 0.37);
+                border-radius: .3125rem;
+                margin-right: 5.3125rem;
+                p{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                    font-size: 2.1875rem;
+                    color: rgb(210, 210, 210);
+                }
+            }
+        }
+        .padre-card{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding-top: 1.5625rem;
+            .start-stop{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: white;
+                padding: 0px .125rem;
+                text-align: center;
+                border: black solid .125rem;
+                border-radius: .3125rem;
+                h1{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                }
+                p{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
