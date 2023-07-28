@@ -1,7 +1,8 @@
 .main-index{
-    background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-accion.webp");
+    background-image: url("file:///C:/Users/damia/Downloads/triumph-te1-ge-2837-1200.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     section{
         width: 100%;
         height: 45rem;
@@ -31,12 +32,19 @@
                 }
             }
         }
+    }
+    div{
+        .video{
+            display: flex;
+            justify-content: center;
+        }
         .padre-card{
             width: 100%;
             display: flex;
             justify-content: center;
             gap: 1rem;
-            padding-top: 1.5625rem;
+            padding-top: 3.125rem;
+            padding-bottom: 3.125rem;
             .start-stop{
                 display: flex;
                 flex-direction: column;

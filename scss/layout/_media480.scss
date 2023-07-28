@@ -1,12 +1,20 @@
 @media (max-width:480px){
     .main-index{
-        background-position: 70% center;
+        background-position: 58% center;
         section{
             .bloque-div{
                 div{
                     width: 85%;
                     height: 45%;
                     margin-left: 4.375rem;
+                }
+            }
+        }
+        div{
+            .video{
+                iframe{
+                    width: 22.0rem;
+                    height: 12.4rem;
                 }
             }
         }
@@ -30,6 +38,23 @@
                     width: 75%;
                     height: 65%;
                 }
+            }
+        }
+    }
+    .producto-main{
+        section{
+            .color2{
+                p{
+                    font-size: 1.6875rem;
+                }
+            }
+        }
+    }
+    .main-colores{
+        .colores-p{
+            p{
+                width: 80%;
+                height: 80%;
             }
         }
     }

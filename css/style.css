@@ -38,9 +38,10 @@ header .navbar-brand:hover {
 }
 
 .main-index {
-  background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-accion.webp");
+  background-image: url("file:///C:/Users/damia/Downloads/triumph-te1-ge-2837-1200.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .main-index section {
   width: 100%;
@@ -72,14 +73,19 @@ header .navbar-brand:hover {
   font-size: 2.1875rem;
   color: rgb(210, 210, 210);
 }
-.main-index section .padre-card {
+.main-index div .video {
+  display: flex;
+  justify-content: center;
+}
+.main-index div .padre-card {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding-top: 1.5625rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
-.main-index section .padre-card .start-stop {
+.main-index div .padre-card .start-stop {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,12 +95,12 @@ header .navbar-brand:hover {
   border: black solid 0.125rem;
   border-radius: 0.3125rem;
 }
-.main-index section .padre-card .start-stop h1 {
+.main-index div .padre-card .start-stop h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
 }
-.main-index section .padre-card .start-stop p {
+.main-index div .padre-card .start-stop p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -167,7 +173,7 @@ footer .contactos div {
   grid-template-areas: "col1 col4" "col2 col3";
   justify-content: center;
   gap: 0.625rem;
-  padding-bottom: 1.875rem;
+  padding: 6.4rem 0rem;
 }
 .producto-main section .color1 {
   grid-area: col1;
@@ -188,7 +194,7 @@ footer .contactos div {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  font-size: 1.5625rem;
+  font-size: 1.75rem;
   color: white;
 }
 .producto-main section .color3 {
@@ -213,12 +219,15 @@ footer .contactos div {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: white;
-  font-size: 18px;
+  font-size: 1.125rem;
   position: relative;
-  left: 20px;
+  left: 1.25rem;
 }
 
-.grid-cards {
+main {
+  background-color: rgb(216, 216, 216);
+}
+main .grid-cards {
   width: 100%;
   height: 45rem;
   display: grid;
@@ -229,7 +238,7 @@ footer .contactos div {
   align-content: center;
   gap: 2.1875rem;
 }
-.grid-cards .card1 {
+main .grid-cards .card1 {
   grid-area: car1;
   background-color: #d0d0d0;
   width: 80%;
@@ -237,27 +246,27 @@ footer .contactos div {
   box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
   border-radius: 0.5rem;
 }
-.grid-cards .card1 div {
+main .grid-cards .card1 div {
   display: flex;
   justify-content: center;
 }
-.grid-cards .card1 div img {
+main .grid-cards .card1 div img {
   position: relative;
   bottom: 1.875rem;
   right: 3.125rem;
 }
-.grid-cards .card1 div h1 {
+main .grid-cards .card1 div h1 {
   font-size: 2.1875rem;
   font-family: "Roboto", sans-serif;
   padding-left: 1.5625rem;
 }
-.grid-cards .card1 p {
+main .grid-cards .card1 p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.1875rem;
   text-align: center;
 }
-.grid-cards .card2 {
+main .grid-cards .card2 {
   grid-area: car2;
   background-color: #d0d0d0;
   width: 80%;
@@ -265,26 +274,26 @@ footer .contactos div {
   box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
   border-radius: 0.5rem;
 }
-.grid-cards .card2 div {
+main .grid-cards .card2 div {
   display: flex;
   justify-content: center;
 }
-.grid-cards .card2 div img {
+main .grid-cards .card2 div img {
   position: relative;
   right: 3.125rem;
   bottom: 1.5625rem;
 }
-.grid-cards .card2 div h2 {
+main .grid-cards .card2 div h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
 }
-.grid-cards .card2 p {
+main .grid-cards .card2 p {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.4375rem;
 }
-.grid-cards .card3 {
+main .grid-cards .card3 {
   grid-area: car3;
   background-color: #d0d0d0;
   width: 80%;
@@ -292,26 +301,26 @@ footer .contactos div {
   box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
   border-radius: 0.5rem;
 }
-.grid-cards .card3 div {
+main .grid-cards .card3 div {
   display: flex;
   justify-content: center;
 }
-.grid-cards .card3 div img {
+main .grid-cards .card3 div img {
   position: relative;
   right: 2.8125rem;
   bottom: 1.5625rem;
 }
-.grid-cards .card3 div h2 {
+main .grid-cards .card3 div h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
 }
-.grid-cards .card3 p {
+main .grid-cards .card3 p {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
 }
-.grid-cards .card4 {
+main .grid-cards .card4 {
   grid-area: car4;
   background-color: #d0d0d0;
   width: 80%;
@@ -319,25 +328,32 @@ footer .contactos div {
   box-shadow: 0.5rem 0.375rem rgba(128, 128, 128, 0.589);
   border-radius: 0.5rem;
 }
-.grid-cards .card4 div {
+main .grid-cards .card4 div {
   display: flex;
   justify-content: center;
 }
-.grid-cards .card4 div img {
+main .grid-cards .card4 div img {
   position: relative;
   right: 2.1875rem;
   bottom: 1.875rem;
 }
-.grid-cards .card4 div h2 {
+main .grid-cards .card4 div h2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.875rem;
   padding-right: 1rem;
 }
-.grid-cards .card4 p {
+main .grid-cards .card4 p {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-align: center;
   font-size: 1.4375rem;
+}
+main .carousel {
+  margin: 0.625rem;
+}
+main .carousel img {
+  width: 100%;
+  height: 30rem;
 }
 
 .main-colores {
@@ -400,14 +416,14 @@ footer .contactos div {
 .main-colores section .colores-2 .div-3:hover {
   transform: scale(1.4);
 }
-.main-colores section div {
+.main-colores section .div-motos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1.5625rem;
   padding: 1rem 0px;
 }
-.main-colores section div .moto {
+.main-colores section .div-motos .moto {
   width: 19.375rem;
   height: 15rem;
   border-radius: 0.625rem;
@@ -458,66 +474,130 @@ footer .contactos div {
   .main-index section .bloque-div div p {
     font-size: 1.875rem;
   }
+  .main-index div .video iframe {
+    width: 40.5rem;
+    height: 25rem;
+  }
   .producto-main section .color2 p {
-    font-size: 1.4625rem;
+    font-size: 1.5625rem;
   }
-  .grid-cards .card1 {
+  .main-bene .grid-cards .card1 {
     width: 98%;
   }
-  .grid-cards .card2 {
+  .main-bene .grid-cards .card2 {
     width: 98%;
   }
-  .grid-cards .card3 {
+  .main-bene .grid-cards .card3 {
     width: 98%;
   }
-  .grid-cards .card4 {
+  .main-bene .grid-cards .card4 {
     width: 98%;
   }
   .main-acerca section .acerca-p p {
     width: 47%;
     height: 55%;
   }
+  .main-colores .colores-p p {
+    width: 50%;
+    height: 60%;
+  }
+  .main-colores section .div-motos .moto {
+    width: 14.7rem;
+    height: 13.5rem;
+  }
 }
 @media (max-width: 768px) {
   .main-index section .bloque-div div p {
     font-size: 1.5625rem;
   }
-  .grid-cards {
-    gap: 4.375rem;
+  .main-index div .video iframe {
+    width: 35.5rem;
+    height: 20rem;
   }
-  .grid-cards .card1 {
-    width: 14.375rem;
+  .producto-main section {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12.5rem 21.875rem 21.875rem;
+    grid-template-areas: "col4 col4" "col1 col2" "col3 col3";
+    gap: 1.875rem;
+    padding: 0px 1rem;
+    padding-bottom: 2.5rem;
   }
-  .grid-cards .card1 div img {
-    right: 1.1875rem;
+  .producto-main section .color1 {
+    top: 0px;
   }
-  .grid-cards .card1 div h1 {
-    padding-left: 1rem;
+  .producto-main section .color2 {
+    justify-self: start;
+    padding-top: 0px;
   }
-  .grid-cards .card2 {
-    width: 14.375rem;
+  .producto-main section .color2 p {
+    text-align: left;
+    font-size: 1.4375rem;
   }
-  .grid-cards .card2 div img {
-    right: 1.125rem;
+  .producto-main section .color3 {
+    width: 90%;
+    justify-self: center;
   }
-  .grid-cards .card3 {
-    width: 14.375rem;
+  .producto-main section .color4 {
+    width: 50%;
+    height: 35%;
+    margin-left: 10.5rem;
   }
-  .grid-cards .card3 div img {
-    right: 1rem;
-  }
-  .grid-cards .card3 div h2 {
+  .producto-main section .color4 h1 {
     font-size: 1.5625rem;
   }
-  .grid-cards .card4 {
+  .main-bene .grid-cards {
+    gap: 4.375rem;
+  }
+  .main-bene .grid-cards .card1 {
     width: 14.375rem;
   }
-  .grid-cards .card4 div h2 {
+  .main-bene .grid-cards .card1 div img {
+    right: 1.1875rem;
+  }
+  .main-bene .grid-cards .card1 div h1 {
+    padding-left: 1rem;
+  }
+  .main-bene .grid-cards .card2 {
+    width: 14.375rem;
+  }
+  .main-bene .grid-cards .card2 div img {
+    right: 1.125rem;
+  }
+  .main-bene .grid-cards .card3 {
+    width: 14.375rem;
+  }
+  .main-bene .grid-cards .card3 div img {
+    right: 1rem;
+  }
+  .main-bene .grid-cards .card3 div h2 {
+    font-size: 1.5625rem;
+  }
+  .main-bene .grid-cards .card4 {
+    width: 14.375rem;
+  }
+  .main-bene .grid-cards .card4 div h2 {
     font-size: 1.5625rem;
   }
   .main-acerca section .acerca-p p {
     width: 57%;
     height: 65%;
+  }
+  .main-colores .colores-p p {
+    width: 70%;
+    height: 70%;
+  }
+  .main-colores section .colores-2 {
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  .main-colores section .div-motos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-colores section .div-motos .moto {
+    width: 19rem;
+    height: 15.6rem;
   }
 }
 @media (max-width: 610px) {
@@ -526,7 +606,30 @@ footer .contactos div {
     height: 40%;
     margin-left: 2.1875rem;
   }
-  .grid-cards {
+  .main-index div .video iframe {
+    width: 29rem;
+    height: 16rem;
+  }
+  .producto-main section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 12.5rem 21.875rem 21.875rem;
+    grid-template-areas: "col4" "col3" "col2";
+  }
+  .producto-main section .color1 {
+    display: none;
+  }
+  .producto-main section .color2 {
+    align-self: center;
+  }
+  .producto-main section .color2 p {
+    text-align: center;
+    font-size: 1.875rem;
+  }
+  .producto-main section .color4 {
+    margin-left: 0px;
+    justify-self: center;
+  }
+  .main-bene .grid-cards {
     height: auto;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 12.5rem);
@@ -537,12 +640,16 @@ footer .contactos div {
 }
 @media (max-width: 480px) {
   .main-index {
-    background-position: 70% center;
+    background-position: 58% center;
   }
   .main-index section .bloque-div div {
     width: 85%;
     height: 45%;
     margin-left: 4.375rem;
+  }
+  .main-index div .video iframe {
+    width: 22rem;
+    height: 12.4rem;
   }
   footer .marca {
     justify-content: center;
@@ -558,10 +665,30 @@ footer .contactos div {
     width: 75%;
     height: 65%;
   }
+  .producto-main section .color2 p {
+    font-size: 1.6875rem;
+  }
+  .main-colores .colores-p p {
+    width: 80%;
+    height: 80%;
+  }
 }
 @media (max-width: 379px) {
   .main-index section .bloque-div div {
     height: 55%;
+  }
+  .main-index div .video iframe {
+    width: 19.8rem;
+    height: 11.3rem;
+  }
+  .producto-main section .color2 p {
+    font-size: 1.5rem;
+  }
+  .producto-main section .color4 {
+    width: 60%;
+  }
+  .producto-main section .color4 h1 {
+    padding-right: 1.25rem;
   }
   .main-acerca section .acerca-p p {
     width: 85%;

@@ -10,28 +10,38 @@
                 }
             }
         }
+        div{
+            .video{
+                iframe{
+                    width: 40.5rem;
+                    height: 25rem;
+                }
+            }
+        }
     }
     .producto-main {
         section {
             .color2 {
                 p {
-                    font-size: 1.4625rem;
+                    font-size: 1.5625rem;
                 }
             }
         }
     }
-    .grid-cards {
-        .card1 {
+    .main-bene{
+        .grid-cards {
+            .card1 {
+                width: 98%;
+            }
+            .card2 {
             width: 98%;
-        }
-        .card2 {
-            width: 98%;
-        }
-        .card3 {
-            width: 98%;
-        }
-        .card4 {
-            width: 98%;
+            }
+            .card3 {
+                width: 98%;
+            }
+            .card4 {
+                width: 98%;
+            }
         }
     }
     .main-acerca{
@@ -40,6 +50,22 @@
                 p{
                     width: 47%;
                     height: 55%;
+                }
+            }
+        }
+    }
+    .main-colores{
+        .colores-p{
+            p{
+                width: 50%;
+                height: 60%;
+            }
+        }
+        section{
+            .div-motos{
+                .moto{
+                    width: 14.7rem;
+                    height: 13.5rem;
                 }
             }
         }

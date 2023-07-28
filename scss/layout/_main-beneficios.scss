@@ -1,124 +1,134 @@
-.grid-cards{
-    width: 100%;
-    height: 45rem;
-    display: grid;
-    grid-template-columns: 30% 30%;
-    grid-template-rows: repeat(2,250px);
-    grid-template-areas: 
-    "car1 car2"
-    "car3 car4"
-    ;
-    justify-content: center;
-    align-content: center;
-    gap: 2.1875rem;
-    .card1{
-        grid-area: car1;
-        background-color: #d0d0d0;
-        width: 80%;
-        justify-self: center;
-        box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-        border-radius: .5rem;
-        div{
-            display: flex;
-            justify-content: center;
-            img{
-                position: relative;
-                bottom: 1.875rem;
-                right: 3.125rem;
+main {
+    background-color: rgb(216, 216, 216);
+    .grid-cards {
+        width: 100%;
+        height: 45rem;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-areas:
+            "car1 car2"
+            "car3 car4"
+        ;
+        justify-content: center;
+        align-content: center;
+        gap: 2.1875rem;
+        .card1 {
+            grid-area: car1;
+            background-color: #d0d0d0;
+            width: 80%;
+            justify-self: center;
+            box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
+            border-radius: .5rem;
+            div {
+                display: flex;
+                justify-content: center;
+                img {
+                    position: relative;
+                    bottom: 1.875rem;
+                    right: 3.125rem;
+                }
+                h1 {
+                    font-size: 2.1875rem;
+                    font-family: 'Roboto', sans-serif;
+                    padding-left: 1.5625rem;
+                }
             }
-            h1{
-                font-size: 2.1875rem;
+            p {
                 font-family: 'Roboto', sans-serif;
-                padding-left: 1.5625rem;
+                font-weight: 700;
+                font-size: 1.1875rem;
+                text-align: center;
             }
         }
-        p{
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 1.1875rem;
-            text-align: center;
+        .card2 {
+            grid-area: car2;
+            background-color: #d0d0d0;
+            width: 80%;
+            justify-self: center;
+            box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
+            border-radius: .5rem;
+            div {
+                display: flex;
+                justify-content: center;
+                img {
+                    position: relative;
+                    right: 3.125rem;
+                    bottom: 1.5625rem;
+                }
+                h2 {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.875rem;
+                }
+            }
+            p {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 1.4375rem;
+            }
+        }
+        .card3 {
+            grid-area: car3;
+            background-color: #d0d0d0;
+            width: 80%;
+            justify-self: center;
+            box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
+            border-radius: .5rem;
+            div {
+                display: flex;
+                justify-content: center;
+                img {
+                    position: relative;
+                    right: 2.8125rem;
+                    bottom: 1.5625rem;
+                }
+                h2 {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.875rem;
+                }
+            }
+            p {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                font-size: 1.0625rem;
+            }
+        }
+        .card4 {
+            grid-area: car4;
+            background-color: #d0d0d0;
+            width: 80%;
+            justify-self: center;
+            box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
+            border-radius: .5rem;
+            div {
+                display: flex;
+                justify-content: center;
+                img {
+                    position: relative;
+                    right: 2.1875rem;
+                    bottom: 1.875rem;
+                }
+                h2 {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.875rem;
+                    padding-right: 1rem;
+                }
+            }
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+                text-align: center;
+                font-size: 1.4375rem;
+            }
         }
     }
-    .card2{
-        grid-area: car2;
-        background-color: #d0d0d0;
-        width: 80%;
-        justify-self: center;
-        box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-        border-radius: .5rem;
-        div{
-            display: flex;
-            justify-content: center;
-            img{
-                position: relative;
-                right: 3.125rem;
-                bottom: 1.5625rem;
-            }
-            h2{
-                font-family: 'Roboto', sans-serif;
-                font-size: 1.875rem;
-            }
-        }
-        p{
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 1.4375rem;
-        }
-    }
-    .card3{
-        grid-area: car3;
-        background-color: #d0d0d0;
-        width: 80%;
-        justify-self: center;
-        box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-        border-radius: .5rem;
-        div{
-            display: flex;
-            justify-content: center;
-            img{
-                position: relative;
-                right: 2.8125rem;
-                bottom: 1.5625rem;
-            }
-            h2{
-                font-family: 'Roboto', sans-serif;
-                font-size: 1.875rem;
-            }
-        }
-        p{
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 1.0625rem;
-        }
-    }
-    .card4{
-        grid-area: car4;
-        background-color: #d0d0d0;
-        width: 80%;
-        justify-self: center;
-        box-shadow: .5rem .375rem rgba(128, 128, 128, 0.589);
-        border-radius: .5rem;
-        div{
-            display: flex;
-            justify-content: center;
-            img{
-                position: relative;
-                right: 2.1875rem;
-                bottom: 1.875rem;
-            }
-            h2{
-                font-family: 'Roboto', sans-serif;
-                font-size: 1.875rem;
-                padding-right: 1rem;
-            }
-        }
-        p{
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            text-align: center;
-            font-size: 1.4375rem;
+    .carousel {
+        margin: .625rem;
+        img {
+            width: 100%;
+            height: 30rem;
         }
     }
 }

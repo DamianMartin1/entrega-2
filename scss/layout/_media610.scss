@@ -1,26 +1,61 @@
-@media (max-width:610px){
-    .main-index{
-        section{
-            .bloque-div{
-                div{
+@media (max-width:610px) {
+    .main-index {
+        section {
+            .bloque-div {
+                div {
                     width: 80%;
                     height: 40%;
                     margin-left: 2.1875rem;
                 }
             }
         }
+        div {
+            .video {
+                iframe {
+                    width: 29.0rem;
+                    height: 16rem;
+                }
+            }
+        }
     }
-    .grid-cards{
-        height: auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,12.5rem);
-        grid-template-areas: 
-        "car1"
-        "car2"
-        "car3"
-        "car4"
-        ;
-        align-items: center;
-        padding: 3.75rem 0px;
+    .producto-main{
+        section{
+            grid-template-columns: 1fr;
+            grid-template-rows: 12.5rem 21.875rem 21.875rem;
+            grid-template-areas: 
+            "col4"
+            "col3"
+            "col2"
+            ;
+            .color1{
+                display: none;
+            }
+            .color2{
+                align-self: center;
+                p{
+                    text-align: center;
+                    font-size: 1.875rem;
+                }
+            }
+            .color4{
+                margin-left: 0px;
+                justify-self: center;
+            }
+        }
+    }
+    .main-bene{
+        .grid-cards {
+            height: auto;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 12.5rem);
+            grid-template-areas:
+                "car1"
+                "car2"
+                "car3"
+                "car4"
+            ;
+            align-items: center;
+            padding: 3.75rem 0px;
+        }
     }
 }

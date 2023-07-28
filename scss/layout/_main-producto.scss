@@ -11,7 +11,7 @@
         ;
         justify-content: center;
         gap: .625rem;
-        padding-bottom: 1.875rem;
+        padding: 6.4rem 0rem;
         .color1{
             grid-area: col1;
             background-image: url("../assets/img/triumph_te-1_2.jpg");
@@ -30,7 +30,7 @@
                 text-align: center;
                 font-family: 'Lato', sans-serif;
                 font-weight: 700;
-                font-size: 1.5625rem;
+                font-size: 1.75rem;
                 color: white;
             }
         }
@@ -55,9 +55,9 @@
                 font-family: 'Roboto', sans-serif;
                 font-weight: 700;
                 color: white;
-                font-size: 18px;
+                font-size: 1.125rem;
                 position: relative;
-                left: 20px;
+                left: 1.25rem;
             }
         }
     }
