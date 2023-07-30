@@ -459,8 +459,8 @@ main .carousel img {
 }
 .main-acerca section .div-img {
   width: 100%;
-  height: 28.125rem;
-  background-image: url("../assets/img/Triumph-TE-1-diseno-terminado-ambiente.jpg");
+  height: 42.125rem;
+  background-image: url("https://triumphcolombia.com/wp-content/uploads/2022/07/left-image-speed-triple-1200-rs-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -583,6 +583,9 @@ main .carousel img {
     width: 57%;
     height: 65%;
   }
+  .main-acerca section .div-img {
+    background-position: 58% center;
+  }
   .main-colores .colores-p p {
     width: 70%;
     height: 70%;
@@ -665,6 +668,9 @@ main .carousel img {
   .main-acerca section .acerca-p p {
     width: 75%;
     height: 65%;
+  }
+  .main-acerca section .div-img {
+    background-position: 70% center;
   }
   .producto-main section .color2 p {
     font-size: 1.6875rem;
