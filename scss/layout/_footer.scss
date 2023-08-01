@@ -1,10 +1,6 @@
 footer{
-    display: grid;
     width: 100%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    ". marca contactos"
+    @include grid (repeat(3,1fr),1fr,none,none,". marca contactos");
     ;
     background-color: #1D3F40;
     .marca{
