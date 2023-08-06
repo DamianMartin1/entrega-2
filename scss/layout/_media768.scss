@@ -97,6 +97,13 @@
                 }
             }
         }
+        .carousel {
+            width: 90%;
+            padding-bottom: 1rem;
+            img {
+                height: 33rem;
+            }
+        }
     }
     .main-acerca{
         section{
@@ -131,6 +138,18 @@
                     width: 19.0rem;
                     height: 15.6rem;
                 }
+            }
+        }
+    }
+    footer{
+        .marca{
+            justify-content: center;
+            width: 5.000rem;
+        }
+        .contactos{
+            gap: .625rem;
+            .incons{
+                margin-right: 1.125rem;
             }
         }
     }

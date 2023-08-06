@@ -57,5 +57,12 @@
             align-items: center;
             padding: 3.75rem 0px;
         }
+        .carousel {
+            width: 90%;
+            padding-bottom: 1rem;
+            img {
+                height: 30rem;
+            }
+        }
     }
 }
